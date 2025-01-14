@@ -1,8 +1,10 @@
 # data_science_worksheets
 This is a collection of worksheets that were sent to me by a student. I have provided my own solutions. 
 These worksheets and their solutions can be found else-where online. 
+
 To avoid confusion for beginners, the main difference is my avoidance of loops where possible. 
 There are certain optimisations I could still do (pointed out in my comments when possible), but I think this is a marked improvement on the previous solution versions. 
+
 Proper vectorisation will make your code much more efficient and readable. 
 "Vectorized Operations" involve applying operations simultaneously to entire arrays without the need for explicit Python loops.
 
