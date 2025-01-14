@@ -23,4 +23,4 @@ Thankfully pandas supports vectorized operations so the best solution would be t
 
 `data["new_column"] = data["column1"]/data["column1"]`
 
-Vectorized operations leverage underlying C-optimized code, making them significantly faster than equivalent Python for loops.
+Vectorized operations leverage underlying libraries (like numpy) which are heavily optimise, making them significantly faster than equivalent Python for loops.
