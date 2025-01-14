@@ -14,13 +14,13 @@ Many students will try to fill a new column populated by the division of a curre
 new_list = []
 
 for i in range(len(data)):
-    calculation_result = data["column1"][i]/data["column1"][i]
+    calculation_result = data["column1"][i]/data["column2][i]
     new_list.append(calculation_result)
 
 data["new_column"] = new_list
 ```
 Thankfully pandas supports vectorized operations so the best solution would be to simply do:
 
-`data["new_column"] = data["column1"]/data["column1"]`
+`data["new_column"] = data["column1"]/data["column2"]`
 
 Vectorized operations leverage underlying libraries (like numpy) which are heavily optimise, making them significantly faster than equivalent Python for loops.
