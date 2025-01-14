@@ -14,7 +14,7 @@ Many students will try to fill a new column populated by the division of a curre
 new_list = []
 
 for i in range(len(data)):
-    calculation_result = data["column1"][i]/data["column2][i]
+    calculation_result = data["column1"][i]/data["column2"][i]
     new_list.append(calculation_result)
 
 data["new_column"] = new_list
