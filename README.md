@@ -24,3 +24,8 @@ Thankfully pandas supports vectorized operations so the best solution would be t
 `data["new_column"] = data["column1"]/data["column2"]`
 
 Vectorized operations leverage underlying libraries (like numpy) which are heavily optimise, making them significantly faster than equivalent Python for loops.
+
+### A couple of other notes about these worksheets:
+- when reporting data on salary, housing prices, or other distributions that may be skewed by large outliers, the median is often a better measure of the center. 
+- is your data really normally distributed? That's an important question to ask and there are tests for normality. 
+- it's important to consider what data is collected, how, and when. For example, if we're comparing the preformance of two advertisements, you may arrive at different conclusions if you compare their succcess off of daily clicks versus weekly clicks.
