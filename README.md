@@ -2,7 +2,7 @@
 This is a collection of worksheets that were sent to me by a student. I have provided my own solutions. 
 These worksheets and their solutions can be found else-where online. 
 
-To avoid confusion for beginners, the main difference is my avoidance of loops where possible. 
+To avoid confusion for beginners, the main difference is my avoidance of loops where possible (except for when asked by the student for demonstration purposes). 
 There are certain optimisations I could still do (pointed out in my comments when possible), but I think this is a marked improvement on the previous solution versions. 
 
 Proper vectorisation will make your code much more efficient and readable. 
