@@ -33,7 +33,8 @@ Vectorized operations leverage underlying libraries (like numpy) which are heavi
 - is your data really normally distributed? That's an important question to ask and there are tests for normality.
     - The assumption of normality is often critical for many statistical analyses, especially parametric tests like t-tests and ANOVAs.
     - Tests for normality include the Shapiro-Wilk test, Kolmogorov-Smirnov test, and visual assessments such as Q-Q plots or histograms.
-    - However, it's also worth noting that many statistical methods are robust to deviations from normality, particularly with large sample sizes (central limit theorem). 
+    - However, it's also worth noting that many statistical methods are robust to deviations from normality, particularly with large sample sizes (central limit theorem).
+    - To simulate salary data with a given median and an assumption that it's not normally distributed, you can use a skewed distribution like the log-normal distribution, which is often used for modeling salary data.
 - it's important to consider what data is collected, how, and when.
     - For example, if we're comparing the preformance of two advertisements, you may arrive at different conclusions if you compare their succcess off of daily clicks versus weekly clicks.
     - How you aggregate your data can highlight or obscure different trends and it's important to coax this out of your data when interpreting it. 
